@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.15)
-project(FL_TEMPLATE)
+project(SIMPLE_WAVE_GEN)
 
 #Path for the SDK
 set(FL_SDK_PATH ${CMAKE_CURRENT_SOURCE_DIR}/SDK )
 
 #Installation Folder for generator plugin export
-set(FL_INSTALL_GENERATORS_PATH C:/Program\ Files/Image-Line/FL\ Studio\ 20/Plugins/Fruity/Generators)
+set(FL_INSTALL_GENERATORS_PATH C:\\Program\ Files\\Image-Line\\FL\ Studio\ 2024\\Plugins\\Fruity\\Generators)
 
 #Installation Folder for Effect plugin plugin export
-set(FL_INSTALL_EFFECTS_PATH C:/Program\ Files/Image-Line/FL\ Studio\ 20/Plugins/Fruity/Effects)
+set(FL_INSTALL_EFFECTS_PATH C:\\Program\ Files\\Image-Line\\FL\ Studio\ 2024\\Plugins\\Fruity\\Effects)
 
 #Set compilers. NOTICE: This template only works with VISUAL Studio compilers!
 #Behaviour with other compilers (e.g. MinGW) is undefined and could not work.

@@ -1,15 +1,15 @@
 #Plugin name
-project(PLUGIN)
+project(SIMPLEWAVEGEN)
 
 #-------VARIABLES-------#
 #Set these variables according to your needs. They are used by this CMakeLists.txt and included .cmake files to configure files, set tests etc.
 
 #True if the plugin is an effect
-set(IS_EFFECT TRUE)
+set(IS_EFFECT FALSE)
 #True if the plugin is a Generator.
-set(IS_GENERATOR FALSE)
+set(IS_GENERATOR TRUE)
 #Insert here your plugin description
-set(PLUGIN_DESCRIPTION "Describe your plugin here")
+set(PLUGIN_DESCRIPTION "Simple Wave Generator")
 
 #TODO: this feature has to be implemented yet
 #if set TRUE, enables the testing suite for this plugin. The testing suite includes googleTests and default assertions
